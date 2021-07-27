@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Score-Keeper</title>
+</head>
+
+<body>
+<section>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            <b>Ping Pong Ball Game</b>
+                        </p>
+                        <button class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </header>
+
+                    <div class="card-content">
+                        <div class="content">
+                            <h1 class="is-size-1"><span id="p1Display">0</span> - <span id="p2Display">0</span></h1>
+                            <p class="subtitles">Keep pressing the buttons to score below</p>
+                        </div>
+                    </div>
+                    <label for="playto" class="label is-large is-inline">Playing TO</label>
+                    <div class="select is-rounded">
+                        <select name="" id="playto">
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</oWption>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <footer class="card-footer">
+                        <button class="button is-primary card-footer-item " id="p1Button">+1 player one</button>
+                        <button class="button is-danger card-footer-item" id="p2Button">+1 player two</button>
+                        <button class="button is-info card-footer-item" id="reset">Reset</button>
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</section>
+
+    <!-- <select name="" id="playto">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</oWption>
+        <option value="10">10</option>
+    </select> -->
+    <!-- <button id="p1Button">+1 player one</button>
+    <button id="p2Button">+1 player Two</button>
+    <button id="">Reset</button> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
